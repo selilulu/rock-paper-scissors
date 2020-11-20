@@ -16,6 +16,7 @@ h1{
 
 }
 .result{
+    
     background-color: rgba(240, 233, 221, 0.493);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display:flex;
@@ -26,7 +27,7 @@ h1{
     box-shadow: 5px 3px #d4cdcd;
     width: 400px;
     height: 40px;
-    margin-left:350px;
+    margin-left: 550px;
 }
 button{
     font-size: 25px;
@@ -46,7 +47,7 @@ button{
     border: 3px solid whitesmoke;
     border-radius: 30%;
     background-color: rgba(188, 143, 143, 0.349);
-    text-shadow: 2px 2px grey;
+    text-shadow: 2px 5px palevioletred;
     height: 150px;
     font-size: 30px;
 }
@@ -71,7 +72,7 @@ button{
 #btn{
 
     border-radius: 8px;
-    color:orangered;
-    font-weight: 900;
+    color:grey;   
+     font-weight: 900px;
 
 }
