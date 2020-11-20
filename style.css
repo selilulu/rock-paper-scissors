@@ -1,0 +1,77 @@
+body{
+   background:url("fin.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 3px 1px palevioletred;
+
+
+}
+.result{
+    background-color: rgba(240, 233, 221, 0.493);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 3px solid rgb(12, 85, 180);
+    border-radius: 30%;
+    box-shadow: 5px 3px #d4cdcd;
+    width: 400px;
+    height: 40px;
+    margin-left:350px;
+}
+button{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#rock , #paper , #scissors{
+
+    font-size: 100px;
+}
+
+.choices{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    border: 3px solid whitesmoke;
+    border-radius: 30%;
+    background-color: rgba(188, 143, 143, 0.349);
+    text-shadow: 2px 2px grey;
+    height: 150px;
+    font-size: 30px;
+}
+
+
+.computer{
+
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button{
+    display: flex;
+    justify-self: center;
+    width: 50px;
+    height: 50px; 
+}
+
+
+#btn{
+
+    border-radius: 8px;
+    color:orangered;
+    font-weight: 900;
+
+}
